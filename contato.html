@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Contato - Negócios Imobíliaria Assana</title>
+		<link rel="icon" href="img/home_style.png">
+		<link rel="stylesheet" href="css/reset.css">
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+	<body>
+		<header>
+			<div class="caixa">
+				<h1><img src="img/assana-imobiliaria.png" alt="Logo da Negócios Imobíliaria Assana"></h1>
+
+				<nav>
+					<ul>
+						<li><a href="index.html">Home</a></li>
+						<li><a href="imoveis.html">Imóveis</a></li>
+						<li><a href="contato.html">Contato</a></li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+
+		<main>
+		  <p id="paragrafo-contato">Entre em contato através do numero <strong>(11) 94011-8533 ou (11) 4149-1937</strong>, ou caso deseje envie o formulario abaixo preenchido, para que possamos entra em contato. </p>
+		    <form method="POST" action="email.php">
+				<label for="nomesobrenome">Nome e sobrenome</label>
+				<input type="text" name="nomesobrenome" id="nomesobrenome" class="input-padrao" required>
+
+				<label for="email">Email</label>
+				<input type="email" name="email" id="email" class="input-padrao" required placeholder="seuemail@dominio.com">
+
+				<label for="telefone">Telefone</label>
+				<input type="tel" name="telefone" id="telefone" class="input-padrao" required placeholder="(XX) XXXXX-XXXX">
+
+				<label for="mensagem">Mensagem</label>
+				<textarea cols="70" rows="10" name="mensagem" id="mensagem" class="input-padrao" required placeholder="Descreva como espera que seja sua casa dos sonhos, Exemplo: Tamanho do terreno, Localidade, Quantos quarto, Quantos banheiro." ></textarea>
+
+				<input type="submit" value="Enviar formulário" class="enviar" name="enviar">
+			</form>
+   
+		</main>
+		<footer class="rodape">
+			<img src="img/logo-branco.png" alt="Logo da Barbearia Alura">
+			<p class="copyright">&copy; Copyright Negócios Imobíliaria Assana</p>
+			<p class="dev">&#128187; Desenvolvido por Gabriel Vieira Assana - 2020</p>
+		</footer>
+	</body>
+</html>
